@@ -199,7 +199,7 @@
 							opacity: 0.8,
 							weight: 1
 						})
-						.bindTooltip(String(total_infected) , {direction: 'top', permanent: true, offset: [0, 0], className: 'class-tooltip'})
+						.bindTooltip(String(total_infected) , {direction: 'right', permanent: true, offset: [0, 0], className: 'class-tooltip'})
 						.addTo(this.map);
 					}
 				});
