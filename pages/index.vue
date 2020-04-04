@@ -198,7 +198,9 @@
 							fillOpacity: 0.4,
 							opacity: 0.8,
 							weight: 1
-						}).addTo(this.map);
+						})
+						.bindTooltip(String(total_infected) , {direction: 'top', permanent: true, offset: [0, 0], className: 'class-tooltip'})
+						.addTo(this.map);
 					}
 				});
 			},
