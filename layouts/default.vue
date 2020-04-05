@@ -153,7 +153,7 @@
 		data () {
 			return {
 				welcome: "Default",
-				date: localData.data[localData.data.length - 1].date
+				date: localData[0].data[localData[0].data.length - 1].date
 			}
 		},
 		methods: {
@@ -196,6 +196,19 @@
 
 	.c-sidebar.c-sidebar-minimized .c-sidebar-nav-item:hover > .c-sidebar-nav-link {
 		background: #321fdb;
+	}
+
+	.class-tooltip {
+		/* background: green; */
+		/* border: 2px solid cyan; */
+		font-weight: bold;
+		padding: 0px;
+	}
+
+	.class-popup {
+		/* background: green; */
+		/* border: 2px solid cyan; */
+		font-weight: bold;
 	}
 
 	#mapid {
