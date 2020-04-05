@@ -33,8 +33,7 @@
 			{"date": "01-04-2020", "infected": 95, "discard": 0, "healthy": 53, "dead": 6},
 			{"date": "02-04-2020", "infected": 180, "discard": 0, "healthy": 76, "dead": 7},
 			{"date": "03-04-2020", "infected": 162, "discard": 0, "healthy": 104, "dead": 7},
-			{"date": "04-04-2020", "infected": 525, "discard": 0, "healthy": 287, "dead": 8},
-			{"date": "05-04-2020", "infected": 0, "discard": 17129, "healthy": 75, "dead": 0}
+			{"date": "04-04-2020", "infected": 525, "discard": 17129, "healthy": 287, "dead": 8}
 		],
 		"latitude": -9.1899672,
 		"longitude": -75.015152
@@ -72,8 +71,7 @@
 			{"date": "01-04-2020", "infected": 49, "discard": 0, "healthy": 0, "dead": 4},
 			{"date": "02-04-2020", "infected": 139, "discard": 0, "healthy": 0, "dead": 5},
 			{"date": "03-04-2020", "infected": 86, "discard": 0, "healthy": 0, "dead": 5},
-			{"date": "04-04-2020", "infected": 375, "discard": 0, "healthy": 0, "dead": 4},
-			{"date": "05-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0}
+			{"date": "04-04-2020", "infected": 375, "discard": 0, "healthy": 0, "dead": 4}
 		],
 		"latitude": -12.0431805,
 		"longitude": -77.0282364
@@ -111,8 +109,7 @@
 			{"date": "01-04-2020", "infected": 10, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "02-04-2020", "infected": 10, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "03-04-2020", "infected": 24, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "04-04-2020", "infected": 37, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "05-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0}
+			{"date": "04-04-2020", "infected": 37, "discard": 0, "healthy": 0, "dead": 0}
 		],
 		"latitude": -3.74912,
 		"longitude": -73.25383
@@ -150,8 +147,7 @@
 			{"date": "01-04-2020", "infected": 17, "discard": 0, "healthy": 0, "dead": 1},
 			{"date": "02-04-2020", "infected": 5, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "03-04-2020", "infected": 5, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "04-04-2020", "infected": 25, "discard": 0, "healthy": 0, "dead": 1},
-			{"date": "05-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0}
+			{"date": "04-04-2020", "infected": 25, "discard": 0, "healthy": 0, "dead": 1}
 		],
 		"latitude": -12.0565901,
 		"longitude": -77.1181412
@@ -189,8 +185,7 @@
 			{"date": "01-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "02-04-2020", "infected": 1, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "03-04-2020", "infected": 23, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "04-04-2020", "infected": 42, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "05-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0}
+			{"date": "04-04-2020", "infected": 42, "discard": 0, "healthy": 0, "dead": 0}
 		],
 		"latitude": -6.7011099,
 		"longitude": -79.9061127
@@ -228,8 +223,7 @@
 			{"date": "01-04-2020", "infected": 1, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "02-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "03-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "04-04-2020", "infected": 2, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "05-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0}
+			{"date": "04-04-2020", "infected": 2, "discard": 0, "healthy": 0, "dead": 0}
 		],
 		"latitude": -5.19449,
 		"longitude": -80.6328201
@@ -267,8 +261,7 @@
 			{"date": "01-04-2020", "infected": 4, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "02-04-2020", "infected": 6, "discard": 0, "healthy": 0, "dead": 1},
 			{"date": "03-04-2020", "infected": 4, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "04-04-2020", "infected": 4, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "05-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0}
+			{"date": "04-04-2020", "infected": 4, "discard": 0, "healthy": 0, "dead": 0}
 		],
 		"latitude": -13.5226402,
 		"longitude": -71.9673386
@@ -306,8 +299,7 @@
 			{"date": "01-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "02-04-2020", "infected": 7, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "03-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "04-04-2020", "infected": 14, "discard": 0, "healthy": 0, "dead": 2},
-			{"date": "05-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0}
+			{"date": "04-04-2020", "infected": 14, "discard": 0, "healthy": 0, "dead": 2}
 		],
 		"latitude": -16.3988895,
 		"longitude": -71.5350037
@@ -345,8 +337,7 @@
 			{"date": "01-04-2020", "infected": 2, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "02-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "03-04-2020", "infected": 6, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "04-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "05-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0}
+			{"date": "04-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0}
 		],
 		"latitude": -12.0651302,
 		"longitude": -75.2048569
@@ -384,8 +375,7 @@
 			{"date": "01-04-2020", "infected": 7, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "02-04-2020", "infected": 6, "discard": 0, "healthy": 0, "dead": 1},
 			{"date": "03-04-2020", "infected": 5, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "04-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "05-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0}
+			{"date": "04-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0}
 		],
 		"latitude": -7.22436,
 		"longitude": -79.4247589
@@ -423,8 +413,7 @@
 			{"date": "01-04-2020", "infected": 2, "discard": 0, "healthy": 0, "dead": 1},
 			{"date": "02-04-2020", "infected": 2, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "03-04-2020", "infected": 3, "discard": 0, "healthy": 0, "dead": 1},
-			{"date": "04-04-2020", "infected": 6, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "05-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0}
+			{"date": "04-04-2020", "infected": 6, "discard": 0, "healthy": 0, "dead": 0}
 		],
 		"latitude": -3.5669401,
 		"longitude": -80.4515305
@@ -462,8 +451,7 @@
 			{"date": "01-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "02-04-2020", "infected": 3, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "03-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "04-04-2020", "infected": 5, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "05-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0}
+			{"date": "04-04-2020", "infected": 5, "discard": 0, "healthy": 0, "dead": 0}
 		],
 		"latitude": -9.5277901,
 		"longitude": -77.5277786
@@ -501,8 +489,7 @@
 			{"date": "01-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "02-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "03-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "04-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "05-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0}
+			{"date": "04-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0}
 		],
 		"latitude": -9.9306202,
 		"longitude": -76.2422333
@@ -540,8 +527,7 @@
 			{"date": "01-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "02-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "03-04-2020", "infected": 1, "discard": 0, "healthy": 0, "dead": 1},
-			{"date": "04-04-2020", "infected": 5, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "05-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0}
+			{"date": "04-04-2020", "infected": 5, "discard": 0, "healthy": 0, "dead": 0}
 		],
 		"latitude": -14.06777,
 		"longitude": -75.7286072
@@ -579,8 +565,7 @@
 			{"date": "01-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "02-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "03-04-2020", "infected": 2, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "04-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "05-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0}
+			{"date": "04-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0}
 		],
 		"latitude": -6.0341601,
 		"longitude": -76.9716797
@@ -618,8 +603,7 @@
 			{"date": "01-04-2020", "infected": 1, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "02-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "03-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "04-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "05-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0}
+			{"date": "04-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0}
 		],
 		"latitude": -12.6719103,
 		"longitude": -69.3554688
@@ -657,8 +641,7 @@
 			{"date": "01-04-2020", "infected": 1, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "02-04-2020", "infected": 1, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "03-04-2020", "infected": 2, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "04-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "05-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0}
+			{"date": "04-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0}
 		],
 		"latitude": -5.7072902,
 		"longitude": -78.8078537
@@ -696,8 +679,7 @@
 			{"date": "01-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "02-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "03-04-2020", "infected": 1, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "04-04-2020", "infected": 1, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "05-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0}
+			{"date": "04-04-2020", "infected": 1, "discard": 0, "healthy": 0, "dead": 0}
 		],
 		"latitude": -10.4069595,
 		"longitude": -76.4616776
@@ -735,8 +717,7 @@
 			{"date": "01-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "02-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "03-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "04-04-2020", "infected": 2, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "05-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0}
+			{"date": "04-04-2020", "infected": 2, "discard": 0, "healthy": 0, "dead": 0}
 		],
 		"latitude": -13.1587801,
 		"longitude": -74.2232132
@@ -774,8 +755,7 @@
 			{"date": "01-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "02-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "03-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "04-04-2020", "infected": 6, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "05-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0}
+			{"date": "04-04-2020", "infected": 6, "discard": 0, "healthy": 0, "dead": 0}
 		],
 		"latitude": -18.0146503,
 		"longitude": -70.2536163
@@ -813,8 +793,7 @@
 			{"date": "01-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "02-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "03-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "04-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 1},
-			{"date": "05-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0}
+			{"date": "04-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 1}
 		],
 		"latitude": -12.7826099,
 		"longitude": -74.9726562
@@ -852,8 +831,7 @@
 			{"date": "01-04-2020", "infected": 1, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "02-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "03-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "04-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "05-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0}
+			{"date": "04-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0}
 		],
 		"latitude": -13.6555595,
 		"longitude": -73.3872223
@@ -891,8 +869,7 @@
 			{"date": "01-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "02-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
 			{"date": "03-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "04-04-2020", "infected": 1, "discard": 0, "healthy": 0, "dead": 0},
-			{"date": "05-04-2020", "infected": 0, "discard": 0, "healthy": 0, "dead": 0}
+			{"date": "04-04-2020", "infected": 1, "discard": 0, "healthy": 0, "dead": 0}
 		],
 		"latitude": -17.1983204,
 		"longitude": -70.9356689
