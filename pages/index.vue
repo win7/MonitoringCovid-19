@@ -67,7 +67,7 @@
 											</div>
 											<div>
 												<div class="text-value text-info"> [{{ total_discard }}] </div>
-												<div class="text-muted text-uppercase font-weight-bold small"> Descartados (Global) </div>
+												<div class="text-muted text-uppercase font-weight-bold small"> Descartados (Nacional) </div>
 											</div>
 										</div>
 									</div>
