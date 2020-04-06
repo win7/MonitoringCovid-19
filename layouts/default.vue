@@ -210,8 +210,12 @@
 		/* border: 2px solid cyan; */
 		font-weight: bold;
 	}
+	
+	.card {
+	    margin-bottom: 0.5rem;
+	}
 
 	#mapid {
-		height: 80vh;
+		height: 75vh;
 	}
 </style>

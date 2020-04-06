@@ -2,15 +2,15 @@
 	<div class="container-fluid">
 		<div class="fade-in">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-sm-12 col-md-6 col-lg-3">
 					<div class="card">
 						<div class="card-header"> Datos de Consulta <span class="font-weight-bold"> {{ deparment }} </span>
 							<div class="card-header-actions"><a class="card-header-action" href="#"><small class="text-muted">docs</small></a></div>
 						</div>
 						<div class="card-body">
 							<div class="form-group row">
-								<label class="col-md-3 col-form-label" for="select1"> Departamento: </label>
-								<div class="col-md-9">
+								<!-- <label class="col-md-3 col-form-label" for="select1"> Departamento: </label> -->
+								<div class="col-md-12">
 									<select class="form-control" id="select1" name="select1" v-on:change="onChange" v-model.trim="deparment_index">
 										<option v-for="item, index in deparments" v-bind:key="index" v-bind:value="index"> {{ item }} </option>
 									</select>
@@ -19,77 +19,81 @@
 							<img class="c-avatar-img" src="img/covid.png" alt="cuidados">
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-sm-6 col-lg-6">
-							<div class="card text-white bg-gradient-success">
-								<div class="card-body card-body pb-0 d-flex justify-content-between align-items-start">
-									<div>
-										<div class="text-value-lg"> [{{ total_healthy }}] </div>
-										<div> Recuperados (Glogal) </div>
-									</div>
-									<!-- <div class="btn-group">
-										<button class="btn btn-transparent dropdown-toggle p-0" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-											<svg class="c-icon">
-												<use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-settings"></use>
-											</svg>
-										</button>
-										<div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
-									</div> -->
-								</div>
-								<!-- <div class="c-chart-wrapper mt-3 mx-3" style="height:70px;">
-									<canvas class="chart" id="card-chart1" height="70"></canvas>
-								</div> -->
-								<svg class="c-sidebar-nav-icon mb-3 mx-3">
-									<use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-smile"></use>
-								</svg>
-							</div>
+					<div class="card">
+						<div class="card-header"> Resumen <span class="font-weight-bold"> {{ deparment }} </span>
+							<div class="card-header-actions"><a class="card-header-action" href="#"><small class="text-muted">docs</small></a></div>
 						</div>
-						<!-- /.col-->
-						<div class="col-sm-6 col-lg-6">
-							<div class="card text-white bg-gradient-warning">
-								<div class="card-body card-body pb-0 d-flex justify-content-between align-items-start">
-									<div>
-										<div class="text-value-lg"> [{{ total_infected }}] </div>
-										<div> Confirmados </div>
+						<div class="card-body">
+							<div class="row">
+								<div class="col-sm-12 col-md-12 col-lg-12">
+									<div class="card overflow-hidden">
+										<div class="card-body p-0 d-flex align-items-center">
+											<div class="bg-success p-4 mfe-3">
+												<svg class="c-icon c-icon-xl">
+													<use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-smile"></use>
+												</svg>
+											</div>
+											<div>
+												<div class="text-value text-success"> [{{ total_healthy }}] </div>
+												<div class="text-muted text-uppercase font-weight-bold small"> Recuperados (Nacional) </div>
+											</div>
+										</div>
 									</div>
 								</div>
-								<svg class="c-sidebar-nav-icon mb-3 mx-3">
-									<use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-medical-cross"></use>
-								</svg>
-							</div>
-						</div>
-						<!-- /.col-->
-						<div class="col-sm-6 col-lg-6">
-							<div class="card text-white bg-gradient-info">
-								<div class="card-body card-body pb-0 d-flex justify-content-between align-items-start">
-									<div>
-										<div class="text-value-lg"> [{{ total_discard }}] </div>
-										<div> Descartados (Global) </div>
+								<!-- /.col-->
+								<div class="col-sm-12 col-md-12 col-lg-12">
+									<div class="card overflow-hidden">
+										<div class="card-body p-0 d-flex align-items-center">
+											<div class="bg-warning p-4 mfe-3">
+												<svg class="c-icon c-icon-xl">
+													<use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-medical-cross"></use>
+												</svg>
+											</div>
+											<div>
+												<div class="text-value text-warning"> [{{ total_infected }}] </div>
+												<div class="text-muted text-uppercase font-weight-bold small"> Confirmados </div>
+											</div>
+										</div>
 									</div>
 								</div>
-								<svg class="c-sidebar-nav-icon mb-3 mx-3">
-									<use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-heart"></use>
-								</svg>
-							</div>
-						</div>
-						<!-- /.col-->
-						<div class="col-sm-6 col-lg-6">
-							<div class="card text-white bg-gradient-danger">
-								<div class="card-body card-body pb-0 d-flex justify-content-between align-items-start">
-									<div>
-										<div class="text-value-lg"> [{{ total_dead }}] </div>
-										<div> Fallecidos </div>
+								<!-- /.col-->
+								<div class="col-sm-12 col-md-12 col-lg-12">
+									<div class="card overflow-hidden">
+										<div class="card-body p-0 d-flex align-items-center">
+											<div class="bg-info p-4 mfe-3">
+												<svg class="c-icon c-icon-xl">
+													<use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-heart"></use>
+												</svg>
+											</div>
+											<div>
+												<div class="text-value text-info"> [{{ total_discard }}] </div>
+												<div class="text-muted text-uppercase font-weight-bold small"> Descartados (Global) </div>
+											</div>
+										</div>
 									</div>
 								</div>
-								<svg class="c-sidebar-nav-icon mb-3 mx-3">
-									<use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-frown"></use>
-								</svg>
-							</div>
+								<!-- /.col-->
+								<div class="col">
+									<div class="card overflow-hidden">
+										<div class="card-body p-0 d-flex align-items-center">
+											<div class="bg-danger p-4 mfe-3">
+												<svg class="c-icon c-icon-xl">
+													<use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-frown"></use>
+												</svg>
+											</div>
+											<div>
+												<div class="text-value text-danger"> [{{ total_dead }}] </div>
+												<div class="text-muted text-uppercase font-weight-bold small"> Fallecidos </div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- /.col-->
+							</div>	
 						</div>
-						<!-- /.col-->
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-sm-12 col-md-6 col-lg-4">
 					<div class="card">
 						<div class="card-header"> Mapa Geográfico <span class="font-weight-bold"> {{ deparment }} </span>
 							<div class="card-header-actions"><a class="card-header-action" href="http://www.chartjs.org" target="_blank"><small class="text-muted">docs</small></a></div>
@@ -101,30 +105,30 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- /.row-->
-			<!-- /.card-->
-			<div class="row">
-				<div class="col-md-6">
-					<div class="card">
-						<div class="card-header"> Evolución de Casos <span class="font-weight-bold"> {{ deparment }} </span>
-							<div class="card-header-actions"><a class="card-header-action" href="http://www.chartjs.org" target="_blank"><small class="text-muted">docs</small></a></div>
-						  </div>
-						<div class="card-body">
-							<div class="c-chart-wrapper"">
-								<canvas id="main-chart"></canvas>
+				<div class="col-sm-12 col-md-12 col-lg-5">
+					<div class="row">
+						<div class="col-sm-12 col-md-12 col-lg-12">
+							<div class="card">
+								<div class="card-header"> Evolución de Casos <span class="font-weight-bold"> {{ deparment }} </span>
+									<div class="card-header-actions"><a class="card-header-action" href="http://www.chartjs.org" target="_blank"><small class="text-muted">docs</small></a></div>
+								  </div>
+								<div class="card-body">
+									<div class="c-chart-wrapper"">
+										<canvas id="main-chart"></canvas>
+									</div>
+								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="card">
-						<div class="card-header"> Factor de Propagación <span class="font-weight-bold"> {{ deparment }} </span>
-							<div class="card-header-actions"><a class="card-header-action" href="http://www.chartjs.org" target="_blank"><small class="text-muted">docs</small></a></div>
-						</div>
-						<div class="card-body">
-							<div class="c-chart-wrapper">
-								<canvas id="canvas-factor"></canvas>
+						<div class="col-sm-12 col-md-12 col-lg-12">
+							<div class="card">
+								<div class="card-header"> Factor de Propagación <span class="font-weight-bold"> {{ deparment }} </span>
+									<div class="card-header-actions"><a class="card-header-action" href="http://www.chartjs.org" target="_blank"><small class="text-muted">docs</small></a></div>
+								</div>
+								<div class="card-body">
+									<div class="c-chart-wrapper">
+										<canvas id="canvas-factor"></canvas>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
