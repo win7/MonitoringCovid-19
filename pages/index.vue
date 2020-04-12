@@ -25,7 +25,7 @@
 						</div>
 						<div class="card-body">
 							<div class="row">
-								<div class="col-sm-12 col-md-12 col-lg-12">
+								<!-- <div class="col-sm-12 col-md-12 col-lg-12">
 									<div class="card overflow-hidden">
 										<div class="card-body p-0 d-flex align-items-center">
 											<div class="bg-success p-4 mfe-3">
@@ -39,7 +39,7 @@
 											</div>
 										</div>
 									</div>
-								</div>
+								</div> -->
 								<!-- /.col-->
 								<div class="col-sm-12 col-md-12 col-lg-12">
 									<div class="card overflow-hidden">
@@ -57,7 +57,7 @@
 									</div>
 								</div>
 								<!-- /.col-->
-								<div class="col-sm-12 col-md-12 col-lg-12">
+								<!-- <div class="col-sm-12 col-md-12 col-lg-12">
 									<div class="card overflow-hidden">
 										<div class="card-body p-0 d-flex align-items-center">
 											<div class="bg-info p-4 mfe-3">
@@ -71,7 +71,7 @@
 											</div>
 										</div>
 									</div>
-								</div>
+								</div> -->
 								<!-- /.col-->
 								<div class="col">
 									<div class="card overflow-hidden">
@@ -260,7 +260,7 @@
 				const arraySum = array => array.reduce((a, b) => a + b, 0)
 				this.factor[0] = 0;
 
-				this.updateData(this.lineChart, this.date, [this.healthy, this.infected, this.dead]);
+				this.updateData(this.lineChart, this.date, [this.infected, this.dead]);
 				this.updateData(this.barChart, this.date, [this.factor]);
 
 				let lat_lon = L.latLng(this.latitude, this.longitude);
@@ -273,35 +273,35 @@
 					type: 'line',
 					data: {
 						labels: [],
-						datasets: [{
+						datasets: [ /*{
 							label: 'Recuperados',
 							backgroundColor: 'rgba(220, 220, 220, 0.2)',
 							borderColor: 'rgba(46, 184, 92, 1)',
 							pointBackgroundColor: 'rgba(46, 184, 92, 1)',
 							pointBorderColor: '#fff',
 							data: []
-						},{
+						}, */ {
 							label: 'Confirmados',
 							backgroundColor: 'rgba(220, 220, 220, 0.2)',
 							borderColor: 'rgba(249, 177, 21, 1)',
 							pointBackgroundColor: 'rgba(249, 177, 21, 1)',
 							pointBorderColor: '#fff',
 							data: []
-						}, /* {
+						} /* , {
 							label: 'Descartados',
 							backgroundColor: 'rgba(151, 187, 205, 0.2)',
 							borderColor: 'rgba(1, 153, 255, 1)',
 							pointBackgroundColor: 'rgba(1, 153, 255, 1)',
 							pointBorderColor: '#fff',
 						  data: this.discard
-						}, */ {
+						}, {
 							label: 'Fallecidos',
 							backgroundColor: 'rgba(220, 220, 220, 0.2)',
 							borderColor: 'rgba(229, 83, 83, 1)',
 							pointBackgroundColor: 'rgba(229, 83, 83, 1)',
 							pointBorderColor: '#fff',
 							data: []
-						}]
+						} */]
 					},
 					options: {
 						responsive: true
