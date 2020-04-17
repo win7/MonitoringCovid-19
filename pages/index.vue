@@ -189,6 +189,9 @@
 					this.deparments.push(item.deparment);
 				}); */
 				let self = this;
+				let min_ = 1000000;
+				let max_ = 0;
+
 				localData.forEach((item, index) => {
 					this.deparments.push(item.deparment);
 
@@ -198,7 +201,27 @@
 						for(let k = 0; k < item.data.length;  k++) {
 							total_infected += item.data[k].infected;
 						}
-						let circle = L.circle(current, 20 * 1000 + total_infected * 50, {
+						if (total_infected < min_) {
+							min_ = total_infected;
+						}
+						if (total_infected > max_) {
+							max_ = total_infected;
+						}
+					}
+				});
+
+				localData.forEach((item, index) => {
+					this.deparments.push(item.deparment);
+
+					if (index > 0) {
+						let current = [item.latitude, item.longitude];
+						let total_infected = 0
+						for(let k = 0; k < item.data.length;  k++) {
+							total_infected += item.data[k].infected;
+						}
+						let normalization = 25000 + (((total_infected - min_) / (max_ - min_)) * (50000 - 0) + 0)
+
+						let circle = L.circle(current, normalization, {
 							color: '#db3236',
 							fillColor: '#db3236',
 							fillOpacity: 0.4,
