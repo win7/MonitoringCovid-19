@@ -192,9 +192,8 @@
 				let min_ = 1000000;
 				let max_ = 0;
 
+				// get min and max infected
 				localData.forEach((item, index) => {
-					this.deparments.push(item.deparment);
-
 					if (index > 0) {
 						let current = [item.latitude, item.longitude];
 						let total_infected = 0
