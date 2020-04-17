@@ -11,10 +11,17 @@
 				</svg>
 			</div>
 			<ul class="c-sidebar-nav">
-				<li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="/">
-					<svg class="c-sidebar-nav-icon">
-						<use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-speedometer"></use>
-					</svg> Monitoreo <span class="badge badge-danger"> Perú </span></a>
+				<li class="c-sidebar-nav-item">
+					<nuxt-link to="/" class="c-sidebar-nav-link">
+						<svg class="c-sidebar-nav-icon">
+							<use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-speedometer"></use>
+						</svg> Monitoreo <span class="badge badge-danger"> Perú </span>
+					</nuxt-link>
+					<!-- <a class="c-sidebar-nav-link" href="/">
+						<svg class="c-sidebar-nav-icon">
+							<use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-speedometer"></use>
+						</svg> Monitoreo <span class="badge badge-danger"> Perú </span>
+					</a> -->
 				</li>
 				<!-- <li class="c-sidebar-nav-title">Mundo</li>
 				<li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="colors.html">
